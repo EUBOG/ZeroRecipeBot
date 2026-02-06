@@ -1,0 +1,29 @@
+# .gitignore
+# Секреты и конфигурация
+.env
+.env.local
+
+# База данных
+*.db
+*.sqlite
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Логи
+*.log
+bot.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
